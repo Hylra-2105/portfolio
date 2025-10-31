@@ -33,7 +33,7 @@ export default function Projects() {
         "/images/anh-8.png",
         "/images/anh-9.png",
       ],
-      github: "https://github.com/Hylra-2105/hotel-bookingi",
+      github: "https://github.com/Hylra-2105/hotel-booking",
     },
     {
       title: "Tour Booking UI",
