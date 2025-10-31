@@ -4,7 +4,10 @@ export default function Hero() {
   const infoLines = [
     { label: "Location", value: '["Can Tho", "Viet Nam"]' },
     { label: "Learning", value: '["React.js"]' },
-    { label: "Resume", value: '["/CV_LeThanhLoi.pdf"]' },
+    {
+      label: "Resume",
+      value: '["/CE190481_Software Engineering_Lê Thành Lợi.pdf"]',
+    },
     { label: "Goal", value: '["Full-Stack Developer"]' },
   ];
 
