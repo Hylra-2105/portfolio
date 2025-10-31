@@ -113,7 +113,6 @@ export default function Projects() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            {/* MÔ TẢ */}
             <div className="border border-gray-700 rounded-lg p-6 bg-gray-800/60 shadow-lg">
               <h3 className="text-2xl font-semibold mb-3">{p.title}</h3>
               <p className="text-gray-300 mb-4 whitespace-pre-line">
@@ -143,7 +142,6 @@ export default function Projects() {
                 </a>
               )}
 
-              {/* GALLERY ẢNH NHỎ */}
               {p.images.length > 0 && (
                 <div className="grid grid-cols-3 sm:grid-cols-6 gap-3 mb-6">
                   {p.images.map((img, j) => (
@@ -164,7 +162,6 @@ export default function Projects() {
         ))}
       </div>
 
-      {/* POPUP PHÓNG TO ẢNH */}
       <AnimatePresence>
         {zoomImg && (
           <motion.div

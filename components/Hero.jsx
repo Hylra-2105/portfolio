@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   const infoLines = [
     { label: "Location", value: '["Can Tho", "Viet Nam"]' },
-    { label: "Resume", value: '["/My_resume.pdf"]' },
+    { label: "Resume", value: '["/CV_LeThanhLoi.pdf"]' },
     { label: "Learning", value: '["React.js"]' },
     { label: "Goal", value: '["Full-Stack Developer"]' },
   ];
