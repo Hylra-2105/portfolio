@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
   const infoLines = [
     { label: "Location", value: '["Can Tho", "Viet Nam"]' },
-    { label: "Resume", value: '[""]' },
+    { label: "Resume", value: '["/My_resume.pdf"]' },
     { label: "Learning", value: '["React.js"]' },
     { label: "Goal", value: '["Full-Stack Developer"]' },
   ];
@@ -72,8 +72,19 @@ export default function Hero() {
             className="text-lg leading-relaxed"
           >
             <span className="text-gray-500">{"<> "}</span>
-            <span className="text-cyan-400">{line.label}:</span>
-            <span className="text-white"> {line.value}</span>
+            <span className="text-cyan-400">{line.label}:</span>{" "}
+            {line.label === "Resume" ? (
+              <a
+                href={line.value.replace(/[\[\]"]/g, "")}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:underline"
+              >
+                [View PDF]
+              </a>
+            ) : (
+              <span className="text-white"> {line.value}</span>
+            )}
           </motion.p>
         ))}
       </motion.div>
