@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Projects() {
   const [zoomImg, setZoomImg] = useState(null);
@@ -50,8 +50,9 @@ export default function Projects() {
     // },
     {
       title: "Tour Booking UI",
-      description:
-        "Created a responsive tour booking frontend using HTML, CSS, JavaScript, and Pug template engine. Focused on clean design, interactive forms, and an intuitive user experience for booking and tour management.",
+      description: `Created a responsive tour booking frontend using HTML, CSS, JavaScript, and Pug template engine. Focused on clean design, interactive forms, and an intuitive user experience for booking and tour management.
+        
+      Demo account (login, register): admin@gmail.com / Admin@123`,
       tech: ["HTML", "CSS", "JavaScript"],
       images: [
         "/images/anh-10.png",
@@ -64,7 +65,7 @@ export default function Projects() {
         "/images/anh-17.png",
         "/images/anh-18.png",
       ],
-      github: "https://github.com/Hylra-2105/tour-management-ui",
+      demo: "https://hylrajourney.vercel.app/",
     },
     {
       title: "Hotel Booking System (Java Swing)",
@@ -137,8 +138,18 @@ export default function Projects() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-5 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-white font-medium transition mb-6"
                 >
-                  <FaGithub className="w-5 h-5 text-cyan-400" />
-                  GitHub
+                  <FaGithub className="w-5 h-5 text-cyan-400" /> GitHub
+                </a>
+              )}
+              {p.demo && (
+                <a
+                  href={p.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-5 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg text-white font-medium transition mb-6"
+                >
+                  <FaExternalLinkAlt className="w-4 h-4 text-white-400" /> Live
+                  Preview
                 </a>
               )}
 
