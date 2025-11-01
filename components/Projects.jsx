@@ -30,26 +30,26 @@ export default function Projects() {
       ],
       github: "https://github.com/NgocPMT/FA25_FER202_GROUP_3",
     },
+    // {
+    //   title: "Tour Booking UI",
+    //   description:
+    //     "Created a responsive tour booking frontend using HTML, CSS, JavaScript. Focused on clean design, interactive forms, and an intuitive user experience for booking and tour management.",
+    //   tech: ["HTML", "CSS", "JavaScript"],
+    //   images: [
+    //     "/images/anh-24.png",
+    //     "/images/anh-25.png",
+    //     "/images/anh-26.png",
+    //     "/images/anh-27.png",
+    //     "/images/anh-28.png",
+    //     "/images/anh-29.png",
+    //     "/images/anh-30.png",
+    //     "/images/anh-31.png",
+    //     "/images/anh-32.png",
+    //   ],
+    //   github: "https://github.com/Hylra-2105/tour-booking-1",
+    // },
     {
       title: "Tour Booking UI",
-      description:
-        "Created a responsive tour booking frontend using HTML, CSS, JavaScript. Focused on clean design, interactive forms, and an intuitive user experience for booking and tour management.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      images: [
-        "/images/anh-24.png",
-        "/images/anh-25.png",
-        "/images/anh-26.png",
-        "/images/anh-27.png",
-        "/images/anh-28.png",
-        "/images/anh-29.png",
-        "/images/anh-30.png",
-        "/images/anh-31.png",
-        "/images/anh-32.png",
-      ],
-      github: "https://github.com/Hylra-2105/tour-booking-1",
-    },
-    {
-      title: "Tour Booking UI-2",
       description:
         "Created a responsive tour booking frontend using HTML, CSS, JavaScript, and Pug template engine. Focused on clean design, interactive forms, and an intuitive user experience for booking and tour management.",
       tech: ["HTML", "CSS", "JavaScript"],
